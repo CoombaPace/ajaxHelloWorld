@@ -25,6 +25,7 @@ And visit `localhost:3009` to view the app.
 
 
 ### File Structure
+```
 ajaxHelloWorld
 ├─ assets
 │  ├─ ajaxRequest.js
@@ -34,3 +35,4 @@ ajaxHelloWorld
 ├─ index.html
 ├─ readme.md
 └─ server.js
+```
