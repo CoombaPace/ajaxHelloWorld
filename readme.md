@@ -14,14 +14,14 @@
 
 ### Instructions
 
-Clone Repo
-Open project folder in and run
+1. #### Clone Repo
+2. #### Download Dependencies - Open project folder and run:
    ```npm install```
-to download dependencies.
 
-Run
+3. #### To Start App - Run:
     ```node server.js```
-And visit `localhost:3009` to view the app.
+3. #### View App in Browser:
+Visit `localhost:3009` to view the app.
 
 
 ### File Structure
