@@ -1,0 +1,19 @@
+/* body {
+    padding-left: 300px;
+} */
+
+#headers {
+    padding-bottom: 25px;
+}
+
+#button-row {
+    padding-top: 15px;
+}
+
+#content {
+    width: 55vw;
+    height: 20vw;
+    padding: 115px;
+    margin: 0 auto;
+    /* font-size: 2vw; */
+}

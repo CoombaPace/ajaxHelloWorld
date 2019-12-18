@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<link href="//cdn.muicss.com/mui-0.10.0/css/mui.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="assets/styles.css" />
+<html lang="en-us">
+
+<head>
+  <title>Hello AJAX</title>
+</head>
+
+<body>
+
+  <div id="headers"  class="mui--text-dark-secondary mui--text-display4 mui--text-center">Hello World AJAX Requests</div>
+  <div id="headers"  class="mui--text-dark-secondary mui--text-display2 mui--text-center">Click Each Button to Make an AJAX Call <br/> and Receive a Response</div>
+
+  <div  class="mui-divider"></div>
+  
+  <div id="button-row" class="mui-row mui--text-center">
+    <div class="mui-col-xs-6 mui-col-md-4"></div>
+    <div class="mui-col-xs-6 mui-col-md-4">
+      <button class="mui-btn mui-btn--flat mui-btn--primary" id="getJSON">JSON Hello</button>
+      <button class="mui-btn mui-btn--flat mui-btn--accent" id="getError">Go Elsewhere</button>
+    </div>
+    <div class="mui-col-xs-6 mui-col-md-4"></div>
+  </div>
+
+  <div id="content" class="mui-container mui--text-center mui--bg-primary-light mui--text-display2"></div>
+
+
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+  </script>
+  <script src="//cdn.muicss.com/mui-0.10.0/js/mui.min.js"></script>
+  <script src="assets/ajaxRequest.js"></script>
+</body>
+</html>
