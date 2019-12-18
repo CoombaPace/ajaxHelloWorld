@@ -22,11 +22,14 @@ window.onload = function() {
     const getJSON = this.document.getElementById("getJSON");
     // const new AJAX request object
     const xhr = new XMLHttpRequest();
-    // onClick, run the function
+    // add lstener for click on getJSON button, on click, run the function
     getJSON.addEventListener("click", function() {
-        // listen for a state change
+        // if readyState makes a successful request...
         xhr.addEventListener('readystatechange', function(){
-            content.innerHTML = xhr.responseText;    
+            if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                // ...display response in content div.
+                content.innerHTML = xhr.responseText;    
+            }
         });
         // Initialize request...
         xhr.open("GET", "assets/info.json", true);
