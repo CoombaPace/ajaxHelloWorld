@@ -20,7 +20,7 @@ errorCall = () => {
         // The path /home/ does not exist
         url: "/home/"
         }).then(function(res) {
-            content.innerHTML = JSON.stringify(err);
+            content.innerHTML = JSON.stringify(res);
         }).catch((err) => content.innerHTML = JSON.stringify(err));
 };
 
