@@ -1,8 +1,12 @@
 # [AJAX Hello World](https://github.com/coombapace/ajaxHelloWorld)
+## [Check It Out](https://coombapace.github.io/ajaxHelloWorld/)
 
 [![](https://img.shields.io/badge/author-@coombapace-blue.svg)](https://www.linkedin.com/in/mattia-pace) 
 
-## AJAX Calls With and Without jQuery
+## AJAX Calls With jQuery
+### This simple project demonstrates 2 AJAX functions. Clicking the buttons will fire the functions. One receives a response from a JSON file, and the other will re-direct to another URL, but an erroneous one. The responses will be displayed on the page.
+
+### There is a bonus game included. Move the explorer with the arrow keys (if it does not respond, click on the game). Grab the treasure chest and take it to each door to see the AJAX magic. Avoid the blobs!
 
 ### Package and Dependency list
 

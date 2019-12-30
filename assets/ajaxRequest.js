@@ -1,4 +1,4 @@
-
+//
 window.onload = function() {
     
     $(document).on("click", "#getJSON", function (e) {

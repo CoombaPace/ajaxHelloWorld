@@ -4,7 +4,7 @@
 // set equal to a variable.
 const content = document.getElementById("content")
 
-function ajaxCall() {
+ajaxCall = () => {
     $.ajax({
         method: "GET",
         // The path /home/ does not exist
