@@ -1,5 +1,5 @@
 {
-  "name": "ajaxHelloWorld",
+  "name": "ajaxhelloworld",
   "version": "1.0.0",
   "description": "[![](https://img.shields.io/badge/author-@coombapace-blue.svg)](https://www.linkedin.com/in/mattia-pace)",
   "main": "server.js",
@@ -7,12 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CoombaPace/ajaxHelloWorld.git"
   },
   "keywords": [],
-  "author": "Mattia Pace",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CoombaPace/ajaxHelloWorld/issues"

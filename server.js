@@ -4,7 +4,6 @@ const path = require('path');
 const port = process.env.port || 3009
 const router = express.Router();
 
-
 app.use('/assets', express.static('assets'))
 
 router.get('/',function(req,res){
@@ -17,3 +16,5 @@ app.use('/', router);
 app.listen(port);
 
 console.log('Running at Port ', port);
+
+

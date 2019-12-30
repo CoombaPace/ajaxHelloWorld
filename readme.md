@@ -10,17 +10,21 @@
 | ------------------ | --------------------------------
 | express            | Fast, unopinionated, minimalist web framework for node. Used to setup server.
 | jQuery             | Fast, small, and feature-rich JavaScript library. It makes Ajax  simpler.
-|
 
-### Instructions
 
-1. #### Clone Repo
-2. #### Download Dependencies - Open project folder and run:
-   ```npm install```
+#### 1. Clone Repo.
 
-3. #### To Start App - Run:
-    ```node server.js```
-3. #### View App in Browser:
+#### 2.  Download Dependencies.
+Open project's root folder in Terminal/Bash and run:
+
+```npm install```
+
+#### 3. Start App:
+In Terminal/Bash window use:
+```node server.js```
+To run the app.
+
+#### 4. View App in Browser:
 Visit `localhost:3009` to view the app.
 
 

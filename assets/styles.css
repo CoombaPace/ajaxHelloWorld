@@ -1,6 +1,27 @@
 /* body {
-    padding-left: 300px;
+    background-color: white;
 } */
+
+
+canvas{
+    position: absolute;
+    width: 100vw;
+    margin: 0 auto;
+    margin-left: 32%
+}
+
+#buttons {
+    position: absolute;
+    width: 81vw;
+}
+
+.getJSON {
+    position: relative;
+}
+
+.getError {
+    position: relative;
+}
 
 #headers {
     padding-bottom: 25px;
@@ -11,9 +32,9 @@
 }
 
 #content {
-    width: 55vw;
-    height: 20vw;
-    padding: 115px;
+    width: 76vw;
+    height: 25vw;
+    padding-top: 4vw;
+    font-size: 2vw;
     margin: 0 auto;
-    /* font-size: 2vw; */
 }

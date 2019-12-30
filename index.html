@@ -9,29 +9,35 @@
 
 <body>
 
-  <div id="headers"  class="mui--text-dark-secondary mui--text-display4 mui--text-center">Hello World AJAX Requests</div>
-  <div id="headers"  class="mui--text-dark-secondary mui--text-display2 mui--text-center">Click Each Button to Make an AJAX Call <br/> and Receive a Response</div>
+  <div class="mui-container">
 
-  <div  class="mui-divider"></div>
-  
-  <div id="button-row" class="mui-row mui--text-center">
-    <div class="mui-col-xs-6 mui-col-md-4"></div>
-    <div class="mui-col-xs-6 mui-col-md-4">
-      <button class="mui-btn mui-btn--flat mui-btn--primary" id="getJSON">JSON Hello</button>
-      <button class="mui-btn mui-btn--flat mui-btn--accent" id="getError">Go Elsewhere</button>
+        <div id="headers"  class="mui--text-dark-secondary mui--text-display4 mui--text-center">Hello World AJAX Requests</div>
+        <div id="headers"  class="mui--text-dark-secondary mui--text-display2 mui--text-center">Click Each Button to Make an AJAX Call <br/> The Response Will Render in the Blue Square <br/> Or Play the Game Below, Get the Treasure Chest to the Exits to Fire the AJAX Functions.</div>
+    
+        <div  class="mui-divider"></div>
+        
+        <div id="button-row" class="mui-row mui--text-center">
+              <div id="buttons" class="mui-col-xs-6 mui-col-md-4">
+                  <button class="mui-btn mui-btn--flat mui-btn--primary" id="getJSON">Hello</button>
+                  <button class="mui-btn mui-btn--flat mui-btn--accent" id="getError">Error</button>
+                </div>              
+          </div>
+          <div id="content" class="mui-container mui--text-center mui--bg-primary-light mui--text-display2">
+            <canvas id="mycanvas"></canvas>
+          </div>
+
+          
     </div>
-    <div class="mui-col-xs-6 mui-col-md-4"></div>
-  </div>
-
-  <div id="content" class="mui-container mui--text-center mui--bg-primary-light mui--text-display2"></div>
-
-
+    
+</div>
+  <script src="assets/pixi.js"></script>
+  <script src="assets/ajaxRequest.js"></script>
+  <script src="assets/game.js"></script>
   <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous">
   </script>
   <script src="//cdn.muicss.com/mui-0.10.0/js/mui.min.js"></script>
-  <script src="assets/ajaxRequest.js"></script>
 </body>
 </html>
